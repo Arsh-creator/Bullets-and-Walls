@@ -33,7 +33,7 @@ if(hascollided(bullet, wall)){
   drawSprites();
 }
 
-function hascollided (lwall,lbullet){
+function hascollided (lbullet,lwall){
 bulletrightedge=lbullet.x+lbullet.width;
 wallleftedge=lwall.x;
 if(bulletleftedge>=wallleftedge){
